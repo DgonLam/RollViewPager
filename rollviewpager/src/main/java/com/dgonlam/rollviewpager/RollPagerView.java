@@ -100,7 +100,7 @@ public class RollPagerView extends RelativeLayout implements OnPageChangeListene
 			removeView(mViewPager);
 		}
 
-		TypedArray type = getContext().obtainStyledAttributes(attrs, R.Dgstyleable.RollViewPager);
+		TypedArray type = getContext().obtainStyledAttributes(attrs, R.styleable.DgRollViewPager);
 		gravity = type.getInteger(R.styleable.DgRollViewPager_Dgrollviewpager_hint_gravity, 1);
 		delay = type.getInt(R.styleable.DgRollViewPager_Dgrollviewpager_play_delay, 0);
 		color = type.getColor(R.styleable.DgRollViewPager_Dgrollviewpager_hint_color, Color.BLACK);
